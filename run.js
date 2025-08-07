@@ -42,7 +42,7 @@ async function sendLegacyTransaction(wallet, router, swapParams, amountIn, nonce
         value: amountIn,
         data: router.interface.encodeFunctionData("multicall", [multicallData]),
         gasLimit: 329388,
-        gasPrice: ethers.utils.parseUnits("0.015", "gwei"),
+        gasPrice: ethers.utils.parseUnits("0.065", "gwei"),
         nonce: nonce,
         chainId: chainId
     };
