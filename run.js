@@ -143,7 +143,7 @@ async function main() {
     
     try {
         console.log("====================================");
-        console.log("🚀 satsuma SWAP BOT - BACTIAR291");
+        console.log("🚀 SATSUMA SWAP BOT - BACTIAR291");
         console.log("====================================\n");
         
         let privateKey = loadPrivateKeyFromEnv();
