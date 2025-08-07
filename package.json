@@ -1,0 +1,15 @@
+{
+  "name": "satsuma-citrea-bot",
+  "version": "1.0.0",
+  "description": "Bot untuk melakukan swap CBTC ke token acak di testnet Citrea menggunakan legacy transaction.",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js"
+  },
+  "author": "bactiar291",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  }
+}
