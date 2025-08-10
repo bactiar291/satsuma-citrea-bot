@@ -42,7 +42,7 @@ async function sendLegacyTransaction(wallet, router, swapParams, amountIn, nonce
         value: amountIn,
         data: router.interface.encodeFunctionData("multicall", [multicallData]),
         gasLimit: 329388,
-        gasPrice: ethers.utils.parseUnits("0.065", "gwei"),
+        gasPrice: ethers.utils.parseUnits("0.015", "gwei"),
         nonce: nonce,
         chainId: chainId
     };
@@ -143,7 +143,7 @@ async function main() {
     
     try {
         console.log("====================================");
-        console.log("🚀 SATSUMA SWAP BOT - BACTIAR291");
+        console.log("🚀 CITREA CBTC SWAP BOT - RANDOM MODE");
         console.log("====================================\n");
         
         let privateKey = loadPrivateKeyFromEnv();
